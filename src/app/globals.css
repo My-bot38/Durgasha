@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --pujo-gold: #f5c542;
+}
+
+html,
+body {
+  background: #000;
+}
+
+.font-bengali {
+  font-family: "Baloo Da 2", "Hind Siliguri", sans-serif;
+}
+
+.font-bengali-ui {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+body {
+  font-family: "Inter", "Hind Siliguri", sans-serif;
+}
+
+/* Hide scrollbars but keep scroll for the playlist / modals */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+.animate-pulse-dot {
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}
+
+/* Custom range styling for the player progress bar */
+input[type="range"].pujo-range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"].pujo-range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 9999px;
+}
+input[type="range"].pujo-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 9999px;
+  background: #fff;
+  margin-top: -4px;
+}
+input[type="range"].pujo-range::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  border: none;
+  border-radius: 9999px;
+  background: #fff;
+}
