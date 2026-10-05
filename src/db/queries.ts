@@ -15,10 +15,10 @@ const DEFAULT_SETTINGS: SettingsRow = {
   targetDate: null,
   heroImageUrl: "/images/hero-pandal.jpg",
   onlineCount: 125,
-  spotifyUrl: "",
+  spotifyUrl: "https://open.spotify.com/playlist/4rIH4jRR8IlCFAzM0SPgZM?si=jwoiZTDeSd6dWjxe9NCnSA&utm_source=copy-link&pi=Lpq4pq2EQuKvT",
   youtubeUrl: "",
-  creditHeading: "MADE WITH BHALOBASHA BY",
-  contactEmail: "devipakshaa@gmail.com",
+  creditHeading: "MADE DURGA PUJO SONGS BY",
+  contactEmail: "apusarkar20230@gmail.com",
 };
 
 export async function getSettings(): Promise<SettingsRow> {
