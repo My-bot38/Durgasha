@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Devi Paksha · পুজো আসছে",
+  title: "Durgasha · পুজো আসছে",
   description: "A Durga Puja music experience. পুজোর গান শুনুন।",
 };
 
